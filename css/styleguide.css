@@ -1,0 +1,36 @@
+:root { 
+  --bg: #f8f8f8;
+  --black: #000000;
+  --dark: #212123;
+  --green: #f0f6e5;
+  --white: #ffffff;
+ 
+  --font-size-m: 72px;
+  --font-size-s: 30px;
+  --font-size-xs: 17px;
+ 
+  --font-family-public_sans: "Public Sans", Helvetica;
+}
+.publicsans-normal-ecru-white-72px {
+  color: var(--green);
+  font-family: var(--font-family-public_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.publicsans-bold-log-cabin-72px {
+  color: var(--dark);
+  font-family: var(--font-family-public_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.publicsans-normal-log-cabin-30px {
+  color: var(--dark);
+  font-family: var(--font-family-public_sans);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}

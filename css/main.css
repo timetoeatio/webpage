@@ -1,0 +1,459 @@
+/* screen - main */
+
+.main {
+  align-items: flex-end;
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  min-height: 2478px;
+  overflow-x: hidden;
+  width: 1920px;
+}
+
+.main .x0-header {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-top: 30px;
+  min-width: 1410px;
+}
+
+.main .logo {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 157px;
+}
+
+.main .time-to-eat {
+  color: var(--dark);
+  font-family: var(--font-family-public_sans);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0;
+  min-height: 20px;
+  min-width: 85px;
+}
+
+.main .logo-1 {
+  align-self: flex-end;
+  height: 50px;
+  margin-bottom: -30px;
+  margin-left: 100px;
+  width: 50px;
+}
+
+.main .overlap-group {
+  align-items: center;
+  background-color: var(--dark);
+  border-radius: 100px;
+  box-shadow: 0px 7px 19px #12264117;
+  display: flex;
+  height: 50px;
+  margin-left: 1060px;
+  min-width: 193px;
+  padding: 0 70px;
+}
+
+.main .admin {
+  color: var(--white);
+  font-family: var(--font-family-public_sans);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0;
+  min-height: 20px;
+  min-width: 53px;
+  text-align: center;
+}
+
+.main .overlap-group3 {
+  height: 2278px;
+  margin-right: -1575.0px;
+  margin-top: 120px;
+  position: relative;
+  width: 3501px;
+}
+
+.main .overlap-group-1 {
+  height: 1694px;
+  left: 4px;
+  position: absolute;
+  top: 584px;
+  width: 1922px;
+}
+
+.main .rectangle-246 {
+  background-color: var(--dark);
+  height: 1028px;
+  left: 2px;
+  position: absolute;
+  top: 666px;
+  width: 1920px;
+}
+
+.main .pexels-tima-miroshnichenko-5725589-1 {
+  height: 659px;
+  left: 253px;
+  mix-blend-mode: darken;
+  position: absolute;
+  top: 938px;
+  width: 1410px;
+}
+
+.main .rectangle-245 {
+  height: 808px;
+  left: 2px;
+  position: absolute;
+  top: 41px;
+  width: 1920px;
+}
+
+.main .vector {
+  height: 188px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.main .vector-1 {
+  height: 232px;
+  left: 0;
+  position: absolute;
+  top: 654px;
+  width: 1922px;
+}
+
+.main .pexels-antoni-shkraba-5589041-2-1 {
+  height: 303px;
+  left: 17px;
+  position: absolute;
+  top: 515px;
+  width: 310px;
+}
+
+.main .pexels-monicore-1087905-1 {
+  height: 334px;
+  left: 1521px;
+  position: absolute;
+  top: 135px;
+  width: 373px;
+}
+
+.main .time-to-eat-1 {
+  color: var(--green);
+  font-family: var(--font-family-public_sans);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  left: 920px;
+  letter-spacing: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 1614px;
+}
+
+.main .x4-footer {
+  align-items: center;
+  display: flex;
+  height: 20px;
+  justify-content: flex-end;
+  left: 932px;
+  min-width: 70px;
+  opacity: 0.4;
+  position: absolute;
+  top: 2228px;
+}
+
+.main .number {
+  color: var(--green);
+  font-family: var(--font-family-public_sans);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 20px;
+  min-width: 41px;
+}
+
+.main .icon-stroke {
+  height: 18px;
+  margin-left: 858px;
+  width: 18px;
+}
+
+.main .x3-cities {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 261px;
+  min-height: 540px;
+  position: absolute;
+  top: 1458px;
+  width: 3240px;
+}
+
+.main .there-is-only-one-me {
+  color: var(--white);
+  font-family: var(--font-family-public_sans);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-left: 1px;
+  min-height: 170px;
+  width: 1234px;
+}
+
+.main .cities {
+  align-items: flex-start;
+  display: flex;
+  height: 170px;
+  margin-top: 200px;
+  min-width: 3258px;
+}
+
+.main .place {
+  align-self: flex-end;
+  letter-spacing: 0;
+  min-height: 85px;
+  min-width: 130px;
+}
+
+.main .place-1 {
+  letter-spacing: 0;
+  margin-left: 100px;
+  min-height: 85px;
+  min-width: 273px;
+}
+
+.main .place-2 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  margin-left: 100px;
+  min-height: 85px;
+  min-width: 237px;
+}
+
+.main .name {
+  letter-spacing: 0;
+  margin-left: 100px;
+  min-height: 85px;
+  min-width: 170px;
+}
+
+.main .name-1 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  margin-left: 100px;
+  min-height: 85px;
+  min-width: 248px;
+}
+
+.main .place-3 {
+  letter-spacing: 0;
+  margin-left: 100px;
+  min-height: 85px;
+  min-width: 312px;
+}
+
+.main .mui-ne {
+  align-self: flex-end;
+  letter-spacing: 0;
+  margin-left: 100px;
+  min-height: 85px;
+  min-width: 224px;
+}
+
+.main .place-4 {
+  letter-spacing: 0;
+  margin-left: 100px;
+  min-height: 85px;
+  min-width: 317px;
+}
+
+.main .place-5 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  margin-left: 100px;
+  min-height: 85px;
+  min-width: 134px;
+}
+
+.main .place-6 {
+  letter-spacing: 0;
+  margin-left: 100px;
+  min-height: 85px;
+}
+
+.main .x2-statistics {
+  align-items: flex-start;
+  display: flex;
+  height: 120px;
+  left: 510px;
+  min-width: 991px;
+  position: absolute;
+  top: 1038px;
+}
+
+.main .x1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 120px;
+  width: 85px;
+}
+
+.main .number-1 {
+  letter-spacing: 0;
+  min-height: 85px;
+}
+
+.main .cities-1 {
+  letter-spacing: 0;
+  margin-left: 4px;
+  min-height: 35px;
+}
+
+.main .x2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 246px;
+  min-height: 120px;
+  width: 253px;
+}
+
+.main .phone {
+  letter-spacing: 0;
+  margin-right: 4.0px;
+  min-height: 85px;
+  min-width: 249px;
+}
+
+.main .users {
+  letter-spacing: 0;
+  margin-right: 4.0px;
+  min-height: 35px;
+  min-width: 77px;
+}
+
+.main .x3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 246px;
+  min-height: 120px;
+  width: 165px;
+}
+
+.main .number-2 {
+  letter-spacing: 0;
+  margin-right: 3.0px;
+  min-height: 85px;
+  min-width: 126px;
+}
+
+.main .restaurants {
+  letter-spacing: 0;
+  margin-right: 4.0px;
+  min-height: 35px;
+  min-width: 161px;
+}
+
+.main .x1-main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 471px;
+  min-height: 888px;
+  position: absolute;
+  top: 0;
+  width: 1104px;
+}
+
+.main .text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 111.0px;
+  min-height: 140px;
+  width: 609px;
+}
+
+.main .time-to-eat-2 {
+  letter-spacing: 0;
+  margin-right: 3.0px;
+  min-height: 85px;
+  min-width: 360px;
+}
+
+.main .deliver-your-food-ri {
+  letter-spacing: 0;
+  margin-right: 4.0px;
+  margin-top: 20px;
+  min-height: 35px;
+  min-width: 605px;
+}
+
+.main .overlap-group2 {
+  height: 789px;
+  margin-top: 6px;
+  position: relative;
+  width: 1104px;
+}
+
+.main .img {
+  height: 789px;
+  left: 100px;
+  position: absolute;
+  top: 0;
+  width: 789px;
+}
+
+.main .overlap-group-2 {
+  align-items: center;
+  background-color: var(--dark);
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px #1226414c;
+  display: flex;
+  height: 50px;
+  left: 698px;
+  min-width: 406px;
+  padding: 0 50px;
+  position: absolute;
+  top: 330px;
+}
+
+.main .food-delivery-servic {
+  color: var(--white);
+  font-family: var(--font-family-public_sans);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 20px;
+  min-width: 306px;
+  text-align: center;
+}
+
+.main .overlap-group1 {
+  align-items: center;
+  background-color: var(--dark);
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px #1226414c;
+  display: flex;
+  height: 50px;
+  left: 0;
+  min-width: 286px;
+  padding: 0 50px;
+  position: absolute;
+  top: 152px;
+}
+
+.main .no-setup-no-other-apps {
+  color: var(--white);
+  font-family: var(--font-family-public_sans);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 20px;
+  min-width: 186px;
+  text-align: center;
+}
