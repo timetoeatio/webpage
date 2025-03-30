@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Egg, Send, MapPin, Bot, ChevronRight, Settings, Clock, Globe2, Award, Users, Building2, Target, Phone } from 'lucide-react';
+import { Egg, Send, MapPin, Bot, ChevronRight, Settings, Clock, Globe2, Award, Users, Building2, Target, Phone, Book } from 'lucide-react';
 
 function App() {
   const [showTelegramInfo, setShowTelegramInfo] = useState(false);
@@ -207,14 +207,22 @@ function App() {
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="bg-blue-100 p-3 rounded-lg">
-                    <Users className="w-6 h-6 text-blue-600" />
+                    <Clock className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-2">Our Team</h3>
+                    <h3 className="font-semibold text-lg mb-2">Our Journey</h3>
                     <p className="text-gray-600">
                       Founded in 2020 during the pandemic to help local kitchens survive, we've grown through the years into a multinational company
                       and now serve thousands of satisfied customers every month. 
                     </p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="bg-yellow-100 p-3 rounded-lg">
+                    <Users className="w-6 h-6 text-yellow-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-lg mb-2">Our Team</h3>
                     <p className="text-gray-600">
                       Led by experienced professionals from the technology and food industry, our diverse team brings together expertise in AI,
                       logistics, and customer experience to deliver excellence.
