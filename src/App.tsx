@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Egg, Send, MapPin, Bot, ChevronRight, Settings, Clock, Globe2, Award, Users, Building2, Target, Phone, Book } from 'lucide-react';
+import { Egg, Send, MapPin, Bot, ChevronRight, Settings, Clock, Globe2, Award, Users, Building2, Target, Phone } from 'lucide-react';
 
 function App() {
   const [showTelegramInfo, setShowTelegramInfo] = useState(false);
@@ -153,7 +153,9 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-16">Where We Deliver</h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="relative h-80 rounded-xl overflow-hidden cursor-pointer transform hover:scale-105 transition">
+            <div
+              onClick={handleStartOrderingVietnam}
+              className="relative h-80 rounded-xl overflow-hidden cursor-pointer transform hover:scale-105 transition">
               <img 
                 src="https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&q=80"
                 alt="Vietnam"
@@ -163,7 +165,9 @@ function App() {
                 <span className="text-white text-2xl font-bold p-8">Vietnam</span>
               </div>
             </div>
-            <div className="relative h-80 rounded-xl overflow-hidden cursor-pointer transform hover:scale-105 transition">
+            <div
+              onClick={handleStartOrderingSpain}
+              className="relative h-80 rounded-xl overflow-hidden cursor-pointer transform hover:scale-105 transition">
               <img 
                 src="https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80"
                 alt="Spain"
